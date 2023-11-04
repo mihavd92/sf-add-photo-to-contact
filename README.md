@@ -28,7 +28,7 @@ _Address:_ 1301, null, null, KS, 66045.
 I solved this issue by adding a condition in the component layout to check if there was information and then display it.
 ![image](https://github.com/mihavd92/sf-add-photo-to-contact/assets/50591995/543afeda-9379-4199-876f-74a2282381dd)
 
-However, this didn't solve the problem of 'null' values, so I had to implement logic in the JS Helper to check if the fields had values, and if so, display them; otherwise, do not display them.
+However, this didn't solve the problem of 'null' values, so I had to implement logic in the JS Helper to check if the fields had values, and if so, display them else - otherwise, do not display them.
 
 Next, I worked on the CSS styles and HTML layout, and the component started to look like this:
 <img src="https://github.com/mihavd92/sf-add-photo-to-contact/assets/50591995/492e7c70-a970-4acd-a3ba-79050b9629ce" width="400">
