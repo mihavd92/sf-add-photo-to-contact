@@ -71,4 +71,4 @@ This task was interesting to me because it was a unique challenge, and when you 
 
 I hope someone will find my experience useful, and you can apply it in your practice.
 
-Also, if you plan to use this in your work, don't forget to install the 'Picture Uploader' app and activate it on the Contact Page Layout."
+Also, if you plan to use this in your work, don't forget to **install the 'Picture Uploader'** app and **activate it on the Contact Page Layout.**
