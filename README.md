@@ -2,7 +2,7 @@
 
 I Googled: 'salesforce how to add a photo to a contact,' and nothing came of it...
 Let's start with the backstory. These days, I came across an interesting task. I needed to create an LWC component that would display a contact card with its information. At first glance, the task seemed simple, but it had many hidden challenges.
-![image](https://github.com/mihavd92/sf-add-photo-to-contact/assets/50591995/bec3b8d5-075d-4c90-b953-0ec648a81f56)
+![image](https://github.com/mihavd92/sf-add-photo-to-contact/assets/50591995/bec3b8d5-075d-4c90-b953-0ec648a81f56 | width=150)
 
 I set up a sandbox and started working on it.
 
