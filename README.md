@@ -22,7 +22,8 @@ Next, I encountered a situation where (unfortunately, I didn't take a screenshot
 It didn't look good when it could appear on a contact card like this:
 
 _Phone:_ - and empty, or where there was information about the address, it displayed something like:
-_Address: _1301, null, null, KS, 66045.
+<br />
+_Address:_ 1301, null, null, KS, 66045.
 
 I solved this issue by adding a condition in the component layout to check if there was information and then display it.
 ![image](https://github.com/mihavd92/sf-add-photo-to-contact/assets/50591995/543afeda-9379-4199-876f-74a2282381dd)
