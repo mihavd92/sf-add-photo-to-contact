@@ -1,0 +1,64 @@
+<template>
+    <div class="main-container" >
+        <div class="header-container">
+            <div>
+                <img class="contact-photo" if:true={contactPhotoUrl} src={contactPhotoUrl} alt="Contact Photo" />
+            </div>
+            <div class="user-info">
+                <template if:true={contactName}>
+                    <p>{contactName}</p>
+                </template>
+                <template if:true={contactLocation}>
+                    <p class="user-info-loc">{contactLocation}</p>
+                </template>
+            </div>
+        </div>
+
+        <template if:true={contactId}>
+        <p>
+            <span class="slds-icon_container slds-icon-utility-identity pr15">
+                <svg class="slds-icon slds-icon-text-default slds-icon_xx-small" aria-hidden="true">
+                <use xlink:href="/_slds/icons/utility-sprite/svg/symbols.svg#identity"></use>
+                </svg>
+            </span>
+            <span class="p-r-l-15">Customer ID:</span>
+            
+                <span class="info">{contactId}</span>
+        </p>
+        </template>
+
+        <template if:true={contactEmail}>
+        <p>
+            <span class="slds-icon_container slds-icon-utility-identity pr15">
+                <svg class="slds-icon slds-icon-text-default slds-icon_xx-small" aria-hidden="true">
+                <use xlink:href="/_slds/icons/utility-sprite/svg/symbols.svg#email"></use>
+                </svg>
+            </span>
+        <span class="p-r-l-15">Email:</span><span class="info">{contactEmail}</span>
+        </p>
+    </template>
+
+        <template if:true={contactPhone}>
+        <p>
+            <span class="slds-icon_container slds-icon-utility-identity pr15">
+                <svg class="slds-icon slds-icon-text-default slds-icon_xx-small" aria-hidden="true">
+                <use xlink:href="/_slds/icons/utility-sprite/svg/symbols.svg#phone_portrait"></use>
+                </svg>
+            </span>
+        <span class="p-r-l-15">Phone:</span><span class="info">{contactPhone}</span>
+        </p>
+    </template>
+
+    <template if:true={contactFullLocation}>
+        <p>
+            <span class="slds-icon_container slds-icon-utility-identity pr15">
+                <svg class="slds-icon slds-icon-text-default slds-icon_xx-small" aria-hidden="true">
+                <use xlink:href="/_slds/icons/utility-sprite/svg/symbols.svg#checkin"></use>
+                </svg>
+            </span>
+        <span class="p-r-l-15">Address:</span><span class="info">{contactFullLocation}</span> 
+        </p>
+    </template>
+            
+    </div>
+</template>
