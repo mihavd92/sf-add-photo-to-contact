@@ -54,6 +54,7 @@ I also created a test coverage because where would we be without tests?
 The tests include two checks: creating a contact with an attachment and verifying if the method returns the correct Attachment Id, and creating a contact without attachments and verifying if the method returns a null value.
 
 Here is the final appearance of the component:
+<br />
 **PreAlpha:** Here, I changed the background and played with background gradients and other styles, and in the FINAL stage, it looked more like the initial expectations.
 <br />
 <img src="https://github.com/mihavd92/sf-add-photo-to-contact/assets/50591995/fea9a12a-44eb-4781-a031-917d6f978776" width="700">
